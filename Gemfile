@@ -23,12 +23,14 @@ gem 'pg'
 
 # Assets
 gem 'slim-rails'
+gem 'redcarpet'
 gem 'less-rails'
 gem 'stylus'
 gem 'therubyracer'
 gem 'uglifier', '>= 1.3.0'
 gem 'ngannotate-rails'
 gem 'autoprefixer-rails'
+gem 'actionpack-page_caching'
 
 # Authentication & Authorization
 gem 'bcrypt'
@@ -79,7 +81,7 @@ group :development do
 end
 
 group :development, :test do
-
+  gem 'capistrano'
   gem 'dotenv-rails'
 
   gem 'thin'
