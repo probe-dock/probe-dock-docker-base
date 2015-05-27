@@ -1,2 +1,2 @@
-cp ../probe-dock/Gemfile .
-cp ../probe-dock/Gemfile.lock .
+cp ../probedock/Gemfile .
+cp ../probedock/Gemfile.lock .
