@@ -58,8 +58,9 @@ gem 'simple_states' # state machines
 gem 'bitmask_attributes' # bitmasks
 gem 'strip_attributes' # trimming
 
-# Fast JSON
-gem 'oj'
+# Parsing
+gem 'oj' # fast JSON parsing
+gem 'ox' # fast XML parsing (without nokogiri)
 
 # Tools
 gem 'rake-version'
@@ -105,7 +106,8 @@ end
 group :test do
   gem 'cucumber-rails', require: false
   gem 'capybara'
-  gem 'selenium-webdriver', '2.45.0'
+  gem 'selenium-webdriver', '2.51.0'
+  gem 'poltergeist'
   gem 'sqlite3'
   gem 'factory_girl'
   gem 'shoulda'
